@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tĩnh Trà - Menu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header-bar">
+            <a href="index.html" class="back-btn">🔙 Trở về</a>
+            <h2 class="page-title">🍵 Tĩnh Trà</h2>
+        </div>
+
+        <a href="https://maps.app.goo.gl/aHru6aaRjqw3opLk8" target="_blank" class="map-btn floating">
+            📍 Xem đường đi trên Google Maps
+        </a>
+
+        <div class="image-gallery floating" style="margin-bottom: 15px;">
+            <!-- Thay "ban-do-cafe.jpg" bằng tên file ảnh thực tế của bạn -->
+            <img src="./Screenshot 2026-09-03 135324.png" alt="Bản đồ đường đi Tĩnh Trà" style="border: 2px solid var(--primary); box-shadow: 0 5px 15px rgba(255,117,140,0.3);">
+        </div>
+
+        <!-- HÌNH ẢNH MENU CAFE -->
+        <div class="image-gallery floating">
+            <img src="./Screenshot 2026-09-03 133316.png" alt="Menu Trà hoa quả, Nước ép">
+            <img src="./Screenshot 2026-09-03 133345.png" alt="Menu Cafe, Coldbrew, Trà sữa">
+        </div>
+
+        <div class="menu-section floating">
+            <h3 class="category-title">Trà hoa quả & Nước ép</h3>
+            <div class="menu-item"><div class="item-info"><div class="item-name">Dủ / Thắm / Bền / Son / Thương / Sum / Thân / Tựa</div><div class="item-price">70K</div></div><input type="checkbox" class="round-checkbox" value="Trà hoa quả"></div>
+            <div class="menu-item"><div class="item-info"><div class="item-name">Mầm / Đương / Thơm / Ươm</div><div class="item-price">50K</div></div><input type="checkbox" class="round-checkbox" value="Nước ép"></div>
+        </div>
+
+        <div class="menu-section floating-delayed">
+            <h3 class="category-title">Trà Sữa & Matcha</h3>
+            <div class="menu-item"><div class="item-info"><div class="item-name">Nắng / Mạ</div><div class="item-price">80K</div></div><input type="checkbox" class="round-checkbox" value="Trà sữa (80K)"></div>
+            <div class="menu-item"><div class="item-info"><div class="item-name">Miên</div><div class="item-price">70K</div></div><input type="checkbox" class="round-checkbox" value="Trà sữa Miên"></div>
+            <div class="menu-item"><div class="item-info"><div class="item-name">Sương / Mây</div><div class="item-price">85K</div></div><input type="checkbox" class="round-checkbox" value="Trà sữa Sương/Mây"></div>
+            <div class="menu-item"><div class="item-info"><div class="item-name">Nương</div><div class="item-price">75K</div></div><input type="checkbox" class="round-checkbox" value="Matcha Nương"></div>
+            <div class="menu-item"><div class="item-info"><div class="item-name">Phong</div><div class="item-price">70K</div></div><input type="checkbox" class="round-checkbox" value="Matcha Phong"></div>
+        </div>
+
+        <div class="menu-section floating">
+            <h3 class="category-title">Cafe & Coldbrew</h3>
+            <div class="menu-item"><div class="item-info"><div class="item-name">Cafe (Xưa / Trầm / Mong / Lắng / Mơ / Ngóng / Vương)</div><div class="item-price">40K - 70K</div></div><input type="checkbox" class="round-checkbox" value="Cafe"></div>
+            <div class="menu-item"><div class="item-info"><div class="item-name">Coldbrew (Dạ / Sớm / Xế / Vãn / Say / Sâu)</div><div class="item-price">55K - 85K</div></div><input type="checkbox" class="round-checkbox" value="Coldbrew"></div>
+        </div>
+
+        <div class="menu-section floating-delayed">
+            <h3 class="category-title">Bánh ngọt & Đồ ăn vặt</h3>
+            <div class="menu-item"><div class="item-info"><div class="item-name">Tiramisu / Mousse các loại</div><div class="item-price">45K</div></div><input type="checkbox" class="round-checkbox" value="Bánh ngọt"></div>
+            <div class="menu-item"><div class="item-info"><div class="item-name">Khô Bò</div><div class="item-price">75K</div></div><input type="checkbox" class="round-checkbox" value="Khô bò"></div>
+            <div class="menu-item"><div class="item-info"><div class="item-name">Hướng dương</div><div class="item-price">15K</div></div><input type="checkbox" class="round-checkbox" value="Hướng dương"></div>
+        </div>
+
+        <div class="menu-section">
+            <h3 class="category-title">💌 Ghi chú cho anh Dũng</h3>
+            <input type="text" class="note-input" placeholder="Ví dụ: Trà sữa ít đá, ít ngọt nha...">
+            <button class="submit-btn" onclick="submitOrder('Tĩnh Trà')">Gửi Lựa Chọn Cho Anh 🚀</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pizza Đình - Menu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header-bar">
+            <a href="index.html" class="back-btn">🔙 Trở về</a>
+            <h2 class="page-title">🍕 Pizza Đình</h2>
+        </div>
+
+        <a href="https://maps.app.goo.gl/K5kvKEPZY8NkrBSp9" target="_blank" class="map-btn floating">
+            📍 Xem đường đi trên Google Maps
+        </a>
+        <div class="image-gallery floating" style="margin-bottom: 15px;">
+            <!-- Thay "Ten_File_Anh_Map_Cua_Ban.jpg" bằng tên file ảnh bạn đã tải về -->
+            <img src="./Screenshot 2026-09-03 135228.png" alt="Bản đồ đường đi" style="border: 2px solid var(--primary); box-shadow: 0 5px 15px rgba(255,117,140,0.3);">
+        </div>
+
+        <!-- HÌNH ẢNH MENU PIZZA -->
+        <div class="image-gallery floating">
+            <img src="Screenshot 2026-09-03 130127.png" alt="Menu Pizza các loại">
+            <img src="Screenshot 2026-09-03 130048.png" alt="Menu Pasta và Nước">
+        </div>
+
+        <div class="menu-section floating">
+            <h3 class="category-title">Pizza (~30cm)</h3>
+            <div class="menu-item"><div class="item-info"><div class="item-name">Say "Cheese!"</div><div class="item-price">200K</div></div><input type="checkbox" class="round-checkbox" value="Pizza Say Cheese"></div>
+            <div class="menu-item"><div class="item-info"><div class="item-name">Trust me</div><div class="item-price">220K</div></div><input type="checkbox" class="round-checkbox" value="Pizza Trust me"></div>
+            <div class="menu-item"><div class="item-info"><div class="item-name">Velvet</div><div class="item-price">220K</div></div><input type="checkbox" class="round-checkbox" value="Pizza Velvet"></div>
+            <div class="menu-item"><div class="item-info"><div class="item-name">Margherita</div><div class="item-price">160K</div></div><input type="checkbox" class="round-checkbox" value="Pizza Margherita"></div>
+            <div class="menu-item"><div class="item-info"><div class="item-name">"Meat" Universe</div><div class="item-price">250K</div></div><input type="checkbox" class="round-checkbox" value="Pizza Meat Universe"></div>
+            <div class="menu-item"><div class="item-info"><div class="item-name">Carbonara</div><div class="item-price">210K</div></div><input type="checkbox" class="round-checkbox" value="Pizza Carbonara"></div>
+            <div class="menu-item"><div class="item-info"><div class="item-name">Hood Chick</div><div class="item-price">220K</div></div><input type="checkbox" class="round-checkbox" value="Pizza Hood Chick"></div>
+            <div class="menu-item"><div class="item-info"><div class="item-name">Beetcoin</div><div class="item-price">210K</div></div><input type="checkbox" class="round-checkbox" value="Pizza Beetcoin"></div>
+        </div>
+
+        <div class="menu-section floating-delayed">
+            <h3 class="category-title">Pasta</h3>
+            <div class="menu-item"><div class="item-info"><div class="item-name">Carbonara</div><div class="item-price">150K</div></div><input type="checkbox" class="round-checkbox" value="Pasta Carbonara"></div>
+            <div class="menu-item"><div class="item-info"><div class="item-name">Bolognese</div><div class="item-price">150K</div></div><input type="checkbox" class="round-checkbox" value="Pasta Bolognese"></div>
+        </div>
+
+        <div class="menu-section floating">
+            <h3 class="category-title">Salad & Side</h3>
+            <div class="menu-item"><div class="item-info"><div class="item-name">Sunset Glow</div><div class="item-price">90K</div></div><input type="checkbox" class="round-checkbox" value="Salad Sunset Glow"></div>
+            <div class="menu-item"><div class="item-info"><div class="item-name">Serena</div><div class="item-price">90K</div></div><input type="checkbox" class="round-checkbox" value="Salad Serena"></div>
+            <div class="menu-item"><div class="item-info"><div class="item-name">French Fries</div><div class="item-price">60K</div></div><input type="checkbox" class="round-checkbox" value="French Fries"></div>
+        </div>
+
+        <div class="menu-section floating-delayed">
+            <h3 class="category-title">Drinks</h3>
+            <div class="menu-item"><div class="item-info"><div class="item-name">Coca / Coca Zero / Sprite</div><div class="item-price">20K</div></div><input type="checkbox" class="round-checkbox" value="Nước ngọt"></div>
+            <div class="menu-item"><div class="item-info"><div class="item-name">Dasani water</div><div class="item-price">15K</div></div><input type="checkbox" class="round-checkbox" value="Nước suối"></div>
+        </div>
+
+        <div class="menu-section">
+            <h3 class="category-title">💌 Ghi chú cho anh Dũng</h3>
+            <input type="text" class="note-input" placeholder="Ví dụ: Lấy cho em nhiều phô mai nha...">
+            <button class="submit-btn" onclick="submitOrder('Pizza Đình')">Gửi Lựa Chọn Cho Anh 🚀</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
