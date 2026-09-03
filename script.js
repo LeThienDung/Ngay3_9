@@ -83,7 +83,7 @@ async function submitOrder(placeName) {
 
         if (response.ok) {
             // ĐÃ THAY ALERT BẰNG THÔNG BÁO XINH XẮN
-            showNotification(`Đã gửi thành công lựa chọn ở ${placeName}! 💕`);
+            showNotification(`Anh đã nhận được lựa chọn của tình yêu ở ${placeName}! rồi nhé ạ💕`);
             
             // Xóa tick các món sau khi gửi
             checkboxes.forEach(cb => cb.checked = false);
