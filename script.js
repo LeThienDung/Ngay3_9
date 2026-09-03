@@ -57,7 +57,7 @@ async function submitOrder(placeName) {
     });
 
     // 🔴 DÁN LINK FORMSPREE CỦA BẠN VÀO ĐÂY 🔴
-    const formspreeURL = "https://formspree.io/f/THAY_BANG_LINK_CUA_BAN";
+    const formspreeURL = "https://formspree.io/f/mbgjypld";
 
     const orderData = {
         "Địa điểm": placeName,
